@@ -1,0 +1,28 @@
+# Node/Electron basics
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+*.tsbuildinfo
+
+# Build outputs
+dist/
+build/
+out/
+release/
+*.asar
+
+# Tests & coverage
+coverage/
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Env/keys
+.env
+.env.*
