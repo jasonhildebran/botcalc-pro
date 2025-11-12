@@ -1,0 +1,8 @@
+{
+  "candidateName": "Overvoltage ESC",
+  "motor": { "type": "BLDC", "name": "1900Kv Outrunner", "kv": 1900, "nominalVoltageV": 11.1, "noLoadRpm": 21000, "noLoadCurrentA": 1.6 },
+  "esc": { "name": "35A Brushless ESC (2–3S only)", "supportedCellsMin": 2, "supportedCellsMax": 3, "continuousCurrentA": 35, "burstCurrentA": 50, "burstSeconds": 10 },
+  "battery": { "chemistry": "LiPo", "cellsS": 4, "nominalVoltageV": 14.8, "capacity_mAh": 3000, "cCont": 35, "cBurst": 70 },
+  "drivetrain": { "wheelDiameter_in": 3.0, "gearRatio": 4.0, "motorCount": 2, "robotMass_lb": 15 },
+  "notes": "Should FAIL later: 4S battery with ESC rated only 2–3S."
+}

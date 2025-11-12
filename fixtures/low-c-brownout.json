@@ -1,0 +1,8 @@
+{
+  "candidateName": "Low-C Brownout Risk",
+  "motor": { "type": "BLDC", "name": "2200Kv Inrunner", "kv": 2200, "nominalVoltageV": 11.1, "noLoadRpm": 24000, "noLoadCurrentA": 2.0 },
+  "esc": { "name": "60A Brushless ESC", "supportedCellsMin": 2, "supportedCellsMax": 4, "continuousCurrentA": 60, "burstCurrentA": 80, "burstSeconds": 10 },
+  "battery": { "chemistry": "LiPo", "cellsS": 3, "nominalVoltageV": 11.1, "capacity_mAh": 2200, "cCont": 15, "cBurst": 30 },
+  "drivetrain": { "wheelDiameter_in": 3.5, "gearRatio": 3.0, "motorCount": 2, "robotMass_lb": 18 },
+  "notes": "Should WARN later: battery continuous current likely below demand; sag/brownout risk."
+}
