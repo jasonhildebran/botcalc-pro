@@ -1,0 +1,39 @@
+{
+  "candidateName": "Baseline 2025",
+  "motor": {
+    "type": "BLDC",
+    "name": "1900Kv Outrunner",
+    "kv": 1900,
+    "nominalVoltageV": 11.1,
+    "noLoadRpm": 21000,
+    "noLoadCurrentA": 1.6,
+    "maxContinuousCurrentA": 60,
+    "mass_g": 180
+  },
+  "esc": {
+    "name": "60A Brushless ESC",
+    "supportedCellsMin": 2,
+    "supportedCellsMax": 4,
+    "continuousCurrentA": 60,
+    "burstCurrentA": 80,
+    "burstSeconds": 10,
+    "becVoltageV": 5,
+    "becCurrentA": 3
+  },
+  "battery": {
+    "chemistry": "LiPo",
+    "cellsS": 3,
+    "nominalVoltageV": 11.1,
+    "capacity_mAh": 5000,
+    "cCont": 50,
+    "cBurst": 100,
+    "internalResistance_mOhmPerCell": 12
+  },
+  "drivetrain": {
+    "wheelDiameter_in": 3.0,
+    "gearRatio": 4.0,
+    "motorCount": 2,
+    "robotMass_lb": 15
+  },
+  "notes": "Plausible baseline that should PASS later."
+}
