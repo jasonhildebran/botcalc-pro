@@ -12,3 +12,4 @@ A desktop helper for picking motors/ESCs/batteries from vendor specs. It derives
 - Clone: `git clone https://github.com/<you>/botcalc-pro.git`
 - (Code scaffolding will be added in Milestone 1.)
 
+CI: TypeScript + Vitest are configured.
