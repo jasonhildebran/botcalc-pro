@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "typecheck": "tsc -p . --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "report": "ts-node src/cli/report.ts"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
