@@ -1,0 +1,124 @@
+{
+    "motors": [
+        {
+            "name": "FingerTech Silver Spark (33.3:1)",
+            "kv": 0,
+            "stall_torque": 55.0,
+            "stall_current": 0.6,
+            "weight": 0.06,
+            "price": 18.00
+        },
+        {
+            "name": "BotKits 22mm Planetary",
+            "kv": 1100,
+            "stall_torque": 80.0,
+            "stall_current": 1.8,
+            "weight": 0.15,
+            "price": 35.00
+        },
+        {
+            "name": "Turnigy SK3 2822",
+            "kv": 1740,
+            "stall_torque": 20.0,
+            "stall_current": 8.0,
+            "weight": 0.08,
+            "price": 22.00
+        }
+    ],
+    "batteries": [
+        {
+            "name": "Tattu 3S 450mAh 75C",
+            "cells": 3,
+            "capacity_mah": 450,
+            "c_rating": 75,
+            "weight": 0.1,
+            "price": 15.00
+        },
+        {
+            "name": "Turnigy Nano-Tech 4S 850mAh",
+            "cells": 4,
+            "capacity_mah": 850,
+            "c_rating": 45,
+            "weight": 0.2,
+            "price": 20.00
+        },
+        {
+            "name": "Galaxy 6S 1300mAh",
+            "cells": 6,
+            "capacity_mah": 1300,
+            "c_rating": 65,
+            "weight": 0.5,
+            "price": 45.00
+        }
+    ],
+    "escs": [
+        {
+            "name": "FingerTech tinyESC",
+            "max_cells": 3,
+            "current_rating": 1.0,
+            "weight": 0.01,
+            "price": 25.00
+        },
+        {
+            "name": "BotKits Scorpion Mini",
+            "max_cells": 4,
+            "current_rating": 12.0,
+            "weight": 0.05,
+            "price": 40.00
+        },
+        {
+            "name": "Vesc 4.12",
+            "max_cells": 12,
+            "current_rating": 50.0,
+            "weight": 0.2,
+            "price": 85.00
+        }
+    ],
+    "weapons": [
+        {
+            "name": "FingerTech Beater Bar",
+            "weight": 0.4,
+            "diameter": 2.5,
+            "price": 30.00
+        },
+        {
+            "name": "S7 Tool Steel Disc (6in)",
+            "weight": 1.5,
+            "diameter": 6.0,
+            "price": 60.00
+        },
+        {
+            "name": "Titanium Drum",
+            "weight": 2.0,
+            "diameter": 3.0,
+            "price": 120.00
+        }
+    ],
+    "connectors": [
+        {
+            "name": "JST (RCY)",
+            "rating": 5,
+            "price": 0.50
+        },
+        {
+            "name": "XT30",
+            "rating": 30,
+            "price": 1.00
+        },
+        {
+            "name": "XT60",
+            "rating": 60,
+            "price": 1.50
+        },
+        {
+            "name": "XT90",
+            "rating": 90,
+            "price": 2.50
+        },
+        {
+            "name": "FingerTech Switch",
+            "rating": 40,
+            "price": 12.00
+        }
+    ]
+}
